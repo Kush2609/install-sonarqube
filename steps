@@ -2,4 +2,14 @@
 
 refer : https://www.voyalab.com/2016/10/06/install-sonarqube-ubuntu/
 
+Go to your appropriate installation directory
+cd /opt/sonar/bin/linux-x86-64/
+
+Start SonarQube service
+sudo ./sonar.sh start 
+
+You can restart and stop SonarQube server with
+sudo ./sonar.sh restart
+sudo ./sonar.sh stop
+
 By default, username - admin   ----------- password - admin. Login with this credential.
